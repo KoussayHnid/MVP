@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carpool</title>
+    <link rel="stylesheet" href="/static/css/indexsheet.css">
+    <script src="index.js"></script>
+    
+</head>
+<body> 
+    <div class="navbar">
+        <div class="lilnavbar">
+            <a class="logo" href="index.html">Car<span>Pool</span></a>
+                <ul class="navbuttons">
+                    <li class="signup"><a href="{{url_for('signin')}}"> <img src="/static/image/plus.png" width="18" height="18" alt="plus">    Post</a></li>                    <li class="find"><a href="find.html"><img src="/static/image/loop.png" width="18" height="18" alt="">    Find</a></li>
+                    <li class="signin"><a href="signin.html">Post</a></li>
+                </ul>
+        </div>
+    
+    
+    </div>
+    <div class="main">
+        <form>
+            <input class="from" type="text" name="from" id="from" placeholder="From">
+            <img src="/static/image/switch.png" width="18" height="18" alt="">
+            <input class="to" type="text" name="to" id="to" placeholder="To">
+            <input type="datetime-local" name="datetime" id="datetime">
+            <input class="passengers" type="text" name="passengers" id="passengers">
+        </form>
+
+            <ul class="buttons">
+                <li class="find1"><a href="#" onclick="controle()" id="find"><img src="/static/image/loop.png" width="18" height="18" alt="loop" > Find</a></li>
+            </ul>
+    
+         
+         <br> <br>
+    </div>
+</body>
+</html>

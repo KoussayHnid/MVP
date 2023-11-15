@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body{
+    margin:0 ;
+    font-family: 'poppins' ;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.navbar{
+    background: color #f3f3f3;
+    padding-inline-start: 2.5em;
+    padding-block: 1em;
+}
+.lilnavbar{
+    display: flex;
+    place-content: space-between;
+    size: auto ;
+}
+
+.logo{
+    font-weight: bold;
+    font-size: 3em;
+}
+.boutton{
+    display: flex;
+    background-color: transparent;
+    border:1px solid rgb(0, 0, 0);
+    padding-inline: 1.5em;
+    padding-block: 1.6em;
+    border-radius: 5em;
+    margin-inline: 2em;
+    
+}
+span{
+    color:#02b6c4;
+}
+.main{
+    background-image: url("post2img.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 18cm;
+    width: inherit;
+}
+
+.zone{
+    background-color: rgba(228, 218, 218, 0.747);
+        width: max-content ;
+    margin: auto;
+    border-radius: 2em;
+}
+
+input{
+    width: 375px;
+    height: 30px;
+    border-radius: 5em;
+    opacity: 0.9;
+    margin:2em 5em 0em 7em ;
+    border-width: 0;
+}
+
+.from,.to{
+    background-image: url("location.png");
+    background-size: 18px;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.passengers{
+    width: 1.5em;
+    background-image: url("passenger.png");
+    background-size: 18px;
+    background-repeat: no-repeat;
+    background-position : 2.7em;
+    background-position-y: center;
+    padding-inline: 1.5em;
+    margin-left: -3em;
+}
+
+.price{
+    width: 2.5em;
+    padding-inline: 1.5em;
+    margin-left: -3em; 
+}
+
+
+.carbrand{
+    width: 10em;
+    padding-inline: 1.5em;  
+}
+.place{
+    width: 10em;
+    padding-inline:1.5em; 
+    margin-left:-3.5em; 
+}
+.datetime{
+    position: relative;
+    font-size: x-small;
+    top:8px;
+    margin-left: 10em;
+    margin-bottom: -20px;
+    color: rgb(82, 78, 78);
+    font-weight: bold;
+}
+
+img{
+    width: 2cm;
+    height: 2cm;
+    margin:2em 5em 0em 7em ;
+}
+
+.text1,.text2{
+    font-size: x-small;
+    font-weight: bold;
+    margin:2em 5em 0em 7em ;   
+}
+
+.text2{
+    margin-top: -3.2em;
+    margin-left: 33em;
+}
+
+.check{
+    margin-left:-1em;
+    width: 250px;
+    height: 20px;
+}
+.checkmessage{
+    position: relative;
+    font-size: small;
+    color: rgb(82, 78, 78);
+    left: 3.5cm;
+    bottom:1cm;
+}
+.button{
+    text-align: center;
+    background-color: #FC6DA2;
+    border-radius: 5em;
+    font-weight: bold;
+    border-width: 0;
+    opacity:1;
+    width: 3cm;
+    height: 1cm;
+    margin-left: 6cm ;
+}
+h5{
+    margin-left:23cm;
+    margin-top: -10cm; 
+}
+iframe{
+    width: 5cm;
+    height: 7cm;
+    margin-left:23cm;
+    bottom: 11cm;
+    border-radius: 2em;
+}

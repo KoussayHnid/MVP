@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>post</title>
+    <link rel="stylesheet" href="static/css/post1sheet.css/">
+    <script src="post1.js"></script>
+</head>
+<body>
+    <div class="navbar">
+        <div class="lilnavbar">
+            <a class="logo" href="index.html">Car<span>Pool</span></a>
+            <a class="boutton" href="signin.html">Already have an account</a>
+        </div>
+    </div>
+    <hr>
+    <section class="main">
+    <div class="zone">
+        <form action="{{ url_for('signin') }}" method="POST">
+            <input class="firstname" type="text" name="firstname" id="firstname" placeholder="First name">
+            <input class="lastname" type="text" name="lastname" id="lastname" placeholder="Last name"><br>
+            <input class="email" type="email" name="email" id="email" placeholder="User@gmail.com"><br>
+            <input class="pwd" type="password" name="pwd" id="pwd" placeholder="Password"><br>
+            <input class="confpwd" type="password" name="confpwd" id="confpwd" placeholder="Confirm password"><br>
+            <label class="birthdaytxt" for="">Birthday</label>
+            <input class="birthday" type="date" name="birthday" id="birthday"><br>
+            
+                <input class="radio1" type="radio" name="gender" id="male">
+                 <p>Male</p>
+                <input class="radio2" type="radio" name="gender" id="female">
+                <p>Female</p> <br>
+               
+        </form>
+    </div>
+    <a id="post1" class="button" href="#" onclick="controle()"><b>Next</b></a>
+</section>
+</body>
+</html>

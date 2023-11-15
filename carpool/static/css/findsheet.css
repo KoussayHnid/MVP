@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body{
+    margin:0 ;
+    font-family: 'poppins' ;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.navbar{
+    background: color #f3f3f3;
+    padding-inline-start: 2.5em;
+    padding-block: 1em;
+}
+.lilnavbar{
+    display: flex;
+    place-content: space-between;
+    size: auto ;
+}
+
+.logo{
+    font-weight: bold;
+    font-size: 3em;
+}
+.boutton{
+    display: flex;
+    background-color: transparent;
+    border:1px solid rgb(0, 0, 0);
+    padding-inline: 1.5em;
+    padding-block: 2em;
+    border-radius: 5em;
+    margin-inline: 2em;
+    
+}
+
+span{
+    color:#02b6c4;
+}
+
+.main{
+    background-image: url("findd.jpg.png");
+    background-size: auto;
+    background-position: center;
+    padding: 2em 7em 9.5em 7em;
+}
+
+.zone{
+    background-color: rgba(228, 218, 218, 0.747);
+    width: max-content ;
+    margin: auto;
+    border-radius: 2em;
+    padding: 2em;
+}
+
+input{
+    width: 375px;
+    height: 30px;
+    border-radius: 5em;
+    opacity: 0.9;
+    margin:2em 5em 0em 7em ;
+    border-width: 0;
+}
+.from,.to{
+    background-image: url("location.png");
+    background-size: 18px;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.passengers{
+    background-image: url("passenger.png");
+   
+    background-size: 18px;
+    background-repeat: no-repeat;
+    background-position : 2.7em;
+    background-position: right;
+
+}
+.datetime{
+    position: relative;
+    font-size: x-small;
+    top:8px;
+    margin-left: 10em;
+    margin-bottom: -20px;
+    color: rgb(82, 78, 78);
+    font-weight: bold;
+}
+
+.button{
+    text-align: center;
+    background-color: #FC6DA2;
+    border-radius: 5em;
+    opacity:1;
+     padding-inline: 2em;
+     padding-block: 1em;
+    margin-left: 12.5cm ;
+   
+}
+h5{
+    margin-left:26cm;
+    margin-top: -9cm; 
+}
+iframe{
+    width: 5cm;
+    height: 7cm;
+    margin-left: 26cm;
+    bottom: 4cm;
+    border-radius: 1em;
+}

@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body{
+    margin:0 ;
+    font-family: 'poppins' ;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+.navbar{
+    background: color #f3f3f3 ;
+    position: relative;
+    z-index : 5;
+    padding-inline-start : 2.5em;
+    padding-block: 1em;
+   
+}
+.logo{
+  
+   font-weight: bold;  
+   font-size: 3em; 
+}
+span{
+    color:#02B6C4;
+}
+.lilnavbar{
+    display: flex;
+    place-content: space-between ;
+    size:auto ;
+}
+.navbuttons{
+    display: flex;
+    place-content:space-between ;
+    padding-inline: 1.5em;
+    padding-block: .8em;
+}
+
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.howitworks{
+    margin-inline : 1em;
+    padding-block: .8em;
+}
+
+.post{
+    background-color: #02B6C4;
+    padding-inline: 1.5em;
+    padding-block: .8em;
+    border-radius: 5em;
+    display: inline-block;
+    margin-inline : 1em;
+   
+}
+
+.find{
+    background-color: #FCAB42;
+    padding-inline: 1.5em;
+    padding-block: .8em;
+    border-radius: 5em;
+    display: inline-block;
+    margin-inline : 1em;
+}
+.signin{
+    background-color: transparent;
+    border:1px solid black;
+    padding-inline: 1.5em;
+    padding-block: .8em;
+    border-radius: 5em;
+    display: inline-block;
+    margin-inline : 1em;
+}
+.form{
+    background-image: url("signinimg.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 7em 7em 10em 7em;
+}
+form {
+    background-color: rgba(255, 255, 255, 0.3);
+    width: max-content ;
+    margin-left: -1cm;
+    margin-bottom: -1.2cm;
+    padding-bottom: 3em;
+    border-radius: 2em;
+    position: relative;
+    bottom: 1cm;
+}
+
+input{
+    width: 375px;
+    height: 30px;
+    border-radius: 5em;
+    opacity: 0.5;
+    margin:3em 5em 0em 5em ;
+    border-width: 0;
+}
+
+.reset{
+    opacity: 1;
+    width: 10em;
+    height: 50px;
+    margin-left: 3cm;
+    background-color: #ed528b;
+    font-weight: bold;
+    text-align: center;
+}
+
+.signin1{
+    opacity: 1;
+    width: 10em;
+    height: 50px;
+    margin-left:-3.5em; 
+    font-weight: bold;
+    background-color: white;
+}

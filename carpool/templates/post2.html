@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>post</title>
+    <link rel="stylesheet" href="post2sheet.css">
+    <script src="post2.js"></script>
+</head>
+<body onload="checke()">
+    <div class="navbar">
+        <div class="lilnavbar">
+            <a class="logo" href="index.html">Car<span>Pool</span></a>
+            <a class="boutton" href="signin.html">Already have an account</a>
+        </div>
+    </div>
+<hr>
+    <div class="main">
+        <div class="zone">
+            <form action="{url_for('/post2')}" method="POST">
+             <input class="from" type="text" name="from" id="from" placeholder="From"><br>
+             <input class="to" type="text" name="to" id="to" placeholder="To"><br>
+             <p class="datetime"> Day and Time</p>
+             <input type="datetime-local" name="datetime" id="datetime"><br>
+             <input class="carbrand" type="text" name="carbrand" id="carbrand" placeholder="Car brand">
+             <input class="passengers" type="text" name="passengers" id="passengers">
+             <input class="price" type="text" name="price" id="price" placeholder="price"> <br>
+             <input type="tel" name="phone" id="phone" placeholder="Phone number"><br>
+             <img class="img1" src="in time.png" alt="">
+             <img class="img2" src="attention.png" alt=""> <br>
+             <p class="text1">Only post a trip if you are sure <br> you are driving and show up on time.</p>
+             <p class="text2">Stick to the speed limit and do not <br> use your phone while driving.</p>
+             <input class="check" type="checkbox"  name="check" id="check" onclick="checke()">
+             <p class="checkmessage">I understand.</p>
+             <input class="button" type="button" value="Post"  id="button" onclick="controle()">
+            </form>
+        </div>
+       
+        
+    </div>
+    
+</body>
+</html>

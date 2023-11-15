@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body{
+    margin:0;
+    font-family:'poppins';
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+.navbar{
+    background: color white ;
+    z-index : 1;
+    padding-inline-start : 3em;
+    padding-block: 1em;
+   
+}
+
+.logo{
+  
+   font-weight: bold;  
+   font-size: 3em; 
+}
+span{
+    color:#02b6c4;
+    
+}
+.lilnavbar{
+    display: flex;
+    place-content: space-between ;
+    size:auto ;
+}
+.navbuttons{
+    display: flex;
+    place-content:space-between ;
+    padding-inline: 1.5em;
+    padding-block: .8em;
+    margin-top: 30px;
+}
+
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.post{
+    background-color: #02B6C4;
+    padding-inline: 1.5em;
+    padding-block: .8em;
+    border-radius: 5em;
+    display: inline-block;
+    margin-inline : 1em;
+   
+}
+
+
+
+
+.find{
+    background-color: #02B6C4;
+    padding-inline: 1.5em;
+    padding-block: .8em;
+    border-radius: 5em;
+    display: inline-block;
+    margin-inline : 1em;
+}
+
+.signin{
+    background-color: white;
+    border:1px solid white;
+    padding-inline: 1.5em;
+    padding-block: .8em;
+    border-radius: 5em;
+    display: inline-block;
+    margin-inline : 1em;
+}
+
+body{
+    background-image: url("static/image/carpool4.jpg");
+    position : relative;
+    z-index : -1;
+    background-repeat: no-repeat;
+    background-size: 2000px;
+    background-position: center;
+    padding-top: 6px;
+    margin-top: -10px;
+}
+
+form{
+    padding-top: 120px;
+    margin-left: 340px;
+}
+
+.buttons{
+    padding-top: 1.2em;
+    margin-left: 900px;
+}
+
+.find1{
+    background-color: #02B6C4;
+    padding-inline: 1.5em;
+    padding-block: .8em;
+    border-radius: 5em;
+    display: inline-block;
+    margin-bottom: 7cm;
+    margin-left: 1em ;
+}
+
+
+input{
+    border-radius: 5em;
+    padding-block: 1em;
+    opacity: 0.5;
+}
+
+input:hover{
+    opacity: 0.9;
+}
+
+
+.from,.to{
+    background-image: url("location.png");
+    background-size: 18px;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.passengers{
+    width: 1.5em;
+    background-image: url("passenger.png");
+    background-size: 18px;
+    background-repeat: no-repeat;
+    background-position : 2.7em;
+    background-position-y: center;
+    padding-inline: 1.5em;
+}
+
+

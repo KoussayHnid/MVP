@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body{
+    margin:0 ;
+    font-family: 'poppins' ;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+header{
+    background-color: red;
+}
+
+.navbar{
+    background: color #f3f3f3;
+    padding-inline-start: 2.5em;
+    padding-block: 1em;
+}
+.lilnavbar{
+    display: flex;
+    place-content: space-between;
+    size: auto ;
+}
+
+.logo{
+    font-weight: bold;
+    font-size: 3em;
+}
+.boutton{
+    display: flex;
+    background-color: transparent;
+    border:1px solid rgb(0, 0, 0);
+    padding-inline: 1.5em;
+    padding-block: 1.6em;
+    border-radius: 5em;
+    margin-inline: 2em;
+    
+}
+span{
+    color:#02b6c4;
+}
+
+.main{
+    background-image: url("postimg.jpg");
+    background-size: cover;
+    background-position: center;
+   height: 13cm;
+   width: 34.5cm;
+}
+
+.zone{
+    background-color: rgba(228, 218, 218, 0.747);
+    width: max-content ;
+    margin: auto;
+    border-radius: 2em;
+}
+
+input{
+    width: 375px;
+    height: 30px;
+    border-radius: 5em;
+    opacity: 0.9;
+    margin:2em 5em 0em 7em ;
+    border-width: 0;
+}
+
+.firstname{
+    width: 10em;
+    padding-inline: 1.5em;  
+}
+.lastname{
+    width: 10em;
+    padding-inline:1.5em; 
+    margin-left:-3.5em; 
+}
+.birthdaytxt{
+    position: relative;
+    font-size: x-small;
+    left:110px;
+    top:-20px; 
+    color: rgb(82, 78, 78);
+    font-weight: bold;
+}
+
+.birthday{
+    margin-left:3.5em;
+}
+.radio1{
+    font-size: 10px;
+    height:20px;
+    width: 20px;
+    margin-left: 10em;
+}
+.radio2{
+    font-size: 10px;
+    height:20px;
+    width: 20px;
+    margin-left: 10em;
+    margin-top: -2em;
+}
+
+p{
+    position: relative;
+    font-weight: lighter;
+    font-size: small;
+    top:-35px;
+    margin-left: 10em;
+    margin-bottom: -20px;
+    color: rgb(82, 78, 78);
+    font-weight: bold;
+}
+
+.button{
+    text-align: center;
+    background-color: #FC6DA2;
+    padding-inline: 2.4em;
+    padding-block: 1em;
+    border-radius: 5em;
+    margin-left: 15.5cm;
+    font-weight: bold;
+}
+
