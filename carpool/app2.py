@@ -18,12 +18,17 @@ def search_rides():
 
     print(f"From: {from_location}, To: {to_location}, Datetime: {datetime}")
     print(f"Mongo URI: {app.config['MONGO_URI']}")
-
+    date_part, time_part = datetime.split('T')
+    import pdb;pdb.set_trace()
     drivers = drivers_collection.find({
-        'from_location': from_location,
-        'to_location': to_location,
-        'datetime': datetime
+        'From': from_location,
+        'To': to_location,
+        'date': date_part,
+        'Time': time_part
     })
+    for driver in drivers:
+        print(driver)
+
 
     count_of_documents = drivers_collection.count_documents({
         'from_location': from_location,
